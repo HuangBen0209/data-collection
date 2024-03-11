@@ -1,2 +1,9 @@
 # data-collection
 基于人体骨架运动信息的行为识别系统样本采集研究
+index是系统功能索界面
+Program是程序启动界面
+PlayVideo是对采集的样本进行回放、包含选择文件、暂停/继续、倍速等功能
+posDataToSke是将采集数据时存入数据库的数据（三维坐标）转换为Kinect的Skeleton的Joint类型（骨骼点名+骨骼点三维坐标）的骨架数据并可视化显示出来
+processPosData 是对Skeleton数据进行加工处理
+sampleEnlarge是对已有的样本数据进行增强，包含数据可视化、样本选择、样本播放、暂停/继续
+SampleShow是对样本进行回放，回放采集时的原动作（rgb图片）
